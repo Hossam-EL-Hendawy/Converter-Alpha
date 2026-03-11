@@ -1,4 +1,4 @@
-# 🔄 Universal File Converter
+# 🔄 Converter Alpha
 
 A powerful local file conversion tool that runs entirely on your machine.
 No internet required. No data sent to any server. Supports files up to **2 GB**.
@@ -128,13 +128,7 @@ ffmpeg -version
 
 ## 🚀 Running the App
 
-**1. Clone or download the project:**
-```bash
-git clone https://github.com/your-username/universal-file-converter.git
-cd universal-file-converter
-```
-
-**2. Start the app:**
+**1. Start the app:**
 ```bash
 # macOS / Linux
 python3 run.py
@@ -143,7 +137,7 @@ python3 run.py
 python run.py
 ```
 
-**3. Open your browser and go to:**
+**2. Open your browser and go to:**
 ```
 http://localhost:8080
 ```
@@ -155,7 +149,7 @@ The launcher (`run.py`) will automatically check all dependencies and show you w
 ## 📁 Project Structure
 
 ```
-universal-file-converter/
+converter-alpha/
 ├── app.py              # Flask app — all conversion logic lives here
 ├── run.py              # Launcher — checks dependencies and starts server
 ├── templates/
